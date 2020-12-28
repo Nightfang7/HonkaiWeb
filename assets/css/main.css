@@ -534,7 +534,33 @@ body {
     }
 
     /* Button */
-
+    .button {
+        position:absolute;
+        animation-name: oxxo;
+        animation-duration:2s;
+        animation-fill-mode:forwards;
+      }
+      
+        @keyframes oxxo{
+            0%{
+                left:0;
+            }
+            100%{
+                left:75%;
+            }
+        }
+        
+      
+      @media(max-width: 480px){
+          @keyframes oxxo{
+            0%{
+                left:0;
+            }
+            100%{
+                left:50%;
+            }
+        }
+      }
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
