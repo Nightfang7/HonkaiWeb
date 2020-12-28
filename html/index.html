@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《崩壞3》Honkai Impact</title>
+    <!-- css連結 -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+		<header id="header">
+			<div class="inner">
+                <a href="index.html" class="logo">
+                    <img src="/img/崩壞3logo.png" alt="">
+                </a>
+            </div>
+        </header>
+    <!-- Banner -->
+		<section id="banner">
+            <!--這裡是動畫內容-->
+            <video loop="true" autoplay="autoplay" preload=”auto>
+                <source type="video/mp4" src="/video/AWAKEN HonkaiMemory.mp4">
+            </video>
+			<div class="inner">
+				<h1>Honkai Impact 3rd:<br /><span>Fight for everything that is beautiful in this world!
+				</span></h1>
+				<ul class="actions">
+					<li><a href="main.html" class="button alt">get started</a></li>
+                </ul>
+                
+			</div>
+        </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="https://twitter.com/HonkaiImpact3rd" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+        </ul>
+        <div class="copyright">
+            &copy; . Design: <a href="#">Nightang</a>. Images: <a href="https://www.bh3.com/">《崩壞3》Honkai Impact</a>.
+        </div>
+    </footer>        
+
+    <!-- Scripts -->
+		<script src="/assets/js/jquery.min.js"></script>
+		<script src="/assets/js/skel.min.js"></script>
+		<script src="/assets/js/util.js"></script>
+        <script src="/assets/js/main.js"></script>
+        
+        <!-- <script type="text/javascript">
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket' in window) {
+                (function () {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                            }
+                            parent.appendChild(elem);
+                        }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function (msg) {
+                        if (msg.data == 'reload') window.location.reload();
+                        else if (msg.data == 'refreshcss') refreshCSS();
+                    };
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                })();
+            }
+            else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+            // ]]>
+        </script>
+        <a href="#navPanel" class="navPanelToggle"></a>
+        <div id="navPanel" class="">
+            <a href="world.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">世界觀</a>
+            <a href="generic.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">角色</a>
+            <a href="elements.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">IP連結</a>
+        <a href="#navPanel" class="close" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></a></div> -->
+</body>
+</html>
