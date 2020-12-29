@@ -536,11 +536,10 @@ body {
     }
 
     /* Button */
-<<<<<<< HEAD
-    .button .alt{
-=======
+
+
+
     .button {
->>>>>>> 08c761d09e999bec691fe1b20fc8c00b66cd822d
         position:absolute;
         animation-name: oxxo;
         animation-duration:2s;
