@@ -526,7 +526,9 @@ body {
         #banner {
             padding: 5em 0 3em 0;
         }
-
+        #banner h1 {
+            font-size: 1.2em;
+        }
             #banner ul {
                 margin-top: 1em;
             }
@@ -534,7 +536,33 @@ body {
     }
 
     /* Button */
-
+    .button .alt{
+        position:absolute;
+        animation-name: oxxo;
+        animation-duration:2s;
+        animation-fill-mode:forwards;
+      }
+      
+        @keyframes oxxo{
+            0%{
+                left:0;
+            }
+            100%{
+                left:75%;
+            }
+        }
+        
+      
+      @media(max-width: 480px){
+          @keyframes oxxo{
+            0%{
+                left:0;
+            }
+            100%{
+                left:50%;
+            }
+        }
+      }
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -976,6 +1004,21 @@ hr {
     padding: 4em 0 2em 0;
     background: #1c1c1c;
     text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+#footer img{
+    opacity: 30%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0px;
+    object-fit: cover;
+    overflow: hidden;
 }
 
     #footer a {
