@@ -92,7 +92,7 @@ body {
     #header img{
         position: relative;
         margin-top: 5px;
-        height: 5em;
+        height: 8em;
     }
 
     #header a {
@@ -969,7 +969,7 @@ header nav .nav-underline:hover:before {
             input[type="button"].alt:hover,
             button.alt:hover,
             .button.alt:hover {
-                background: #fceced;
+                background:rgba(252,236,237,0.4);
             }
 
             input[type="submit"].alt:active,

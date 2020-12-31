@@ -92,7 +92,7 @@ body {
     #header img{
         position: relative;
         margin-top: 5px;
-        height: 5em;
+        height: 10em;
     }
 
     #header a {
@@ -308,7 +308,7 @@ body {
 
     #banner {
         background-color: #e5474b;
-        height: 732px;
+        height: 500px;
         color: #f2a3a5;
         padding: 25em 0 11em 0;
         background-color: #0c0c0c;
@@ -450,7 +450,7 @@ body {
     #banner .inner {
         max-width: 65em;
         width: calc(100% - 6em);
-        margin: 25rem auto 0 auto;
+        margin: 10rem auto 0 auto;
         position: relative;
         z-index: 10000;
         line-height: 1.5;
