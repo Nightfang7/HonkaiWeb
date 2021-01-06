@@ -646,10 +646,15 @@ header nav .nav-underline:hover:before {
         justify-content: space-between;
         -ms-flex-pack: justify;
     }
+    
 
         #three .inner article {
             width: 26%;
             display: block;
+        }
+
+        #three .inner img{
+            width: 100%;
         }
 
             #three .inner article p {
