@@ -1593,7 +1593,7 @@ hr {
             }
 .wallpaper{
     height: 1806px;
-    background-image:url(/img/wallVector.png);
+    background-image:url(../img/wallVector.png);
     background-repeat:no-repeat;
     background-size:2000px 2000px;
 }
